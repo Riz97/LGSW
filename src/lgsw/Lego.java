@@ -35,7 +35,7 @@ public class Lego extends JFrame {
                 String name = parts[0];
                 String price = parts[1];
                 String id = parts[2];
-                listModel.addElement("Name: " + name + ", Price: " + price + ", ID: " + id);
+                listModel.addElement(name + ", Price: " + price + ", ID: " + id);
             }
         } catch (IOException e) {
             e.printStackTrace();
